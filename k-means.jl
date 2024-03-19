@@ -88,9 +88,6 @@ end
 coordinates = [(2, 5), (3, 2), (3, 3), (3, 4), (4, 3),
                (4, 4), (6, 3), (6, 4), (6, 6), (7, 2),
                (7, 5), (7, 6), (7, 7), (8, 6), (8, 7)]
-#加入500個新的座標
-new_coordinates = [(rand(1:20), rand(1:20)) for _ in 1:500]
-append!(coordinates, new_coordinates)
 
 initial_coordinates = [(2, 2), (4, 6), (6, 5), (8, 8)]#初始條件
 
