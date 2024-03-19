@@ -64,9 +64,6 @@ coordinates = [(2, 5), (3, 2), (3, 3), (3, 4), (4, 3),
                (4, 4), (6, 3), (6, 4), (6, 6), (7, 2),
                (7, 5), (7, 6), (7, 7), (8, 6), (8, 7)]
 
-new_coordinates = [(np.random.randint(1, 21), np.random.randint(1, 21)) for _ in range(500)]
-coordinates += new_coordinates
-
 initial_coordinates = [(2, 2), (4, 6), (6, 5), (8, 8)]
 
 # Plotting using matplotlib
